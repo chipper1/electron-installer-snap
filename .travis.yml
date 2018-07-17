@@ -11,6 +11,7 @@ cache:
 branches:
   only:
   - master
+  - ubuntu-18.04
   - /^v\d+\.\d+\.\d+/
 install:
 - npm install
